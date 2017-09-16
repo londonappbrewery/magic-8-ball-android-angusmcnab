@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Random randomNumberGen = new Random();
 
-                int number = randomNumberGen.nextInt(6);
+                int number = randomNumberGen.nextInt(5);
 
                 ballDisplay.setImageResource(ballArray[number]);
             }
